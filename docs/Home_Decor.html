@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head><meta charset="UTF-8" />
+<head>
+  <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content="CRI★MIN Clothing - Merch selling.">
   <link rel="stylesheet" href="styles.css">
@@ -16,12 +17,55 @@
 </head>
 
 <body>
-    <!-- Navbar -->
-    <!-- Main Section -->
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="menu-icon" aria-label="Menu">&#9776;</div>
+    <nav class="nav-links">
+      <a href="Home.html">Home</a>
+      <a href="Cosplay_Clothes.html">Cosplay Clothes</a>
+      <a href="Home_Decor.html" class="active">Home Decor</a>
+    </nav>
+    <div class="search">
+      <input type="text" placeholder="What are you looking for?">
+      <span class="icon">🔍</span>
+      <span class="icon">🤍</span>
+      <a href="Checkout.html"><span class="icon">🛒</span></a>
+      <span class="icon"><img src="imgs/logo.png" alt="logo" class="logo"></span>
+    </div>
+  </header>
+  <!-- Main Section -->
+  <main class="container">
     <!-- Logo & Promo -->
+    <section class="top-section">
+      <div class="logo-section">
+        <h1>CRI★MIN<br><span>CLOTHING</span></h1>
+        <p class="tagline">"STYLE WITH A SENSE OF ADVENTURE."</p>
+      </div>
+      <div class="promo">
+        <div class="promo-text">
+          <h3>Up to 20% off Voucher</h3>
+          <a href="Cosplay_Clothes.html">Shop Now →</a>
+        </div>
+        <div>
+          <img src="imgs/voucher.png" alt="Clothes" class="Clothes">
+        </div>
+        <div class="dots">
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot active"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+        </div>
+      </div>
+    </section>
     <!-- Video Section -->
+     <div class="posters">
+      <video controls poster="imgs/image.jpg" width="600">
+        <source src="vid/One Piece Opening.mp4" type="video/mp4">
+      </video>
+    </div>
     <!-- Collection -->
-     <section class="collection">
+    <section class="collection">
       <h2 class="type">COLLECTIONS TO COLLECT</h2>
     </section>
 
@@ -54,7 +98,18 @@
 
       </div>
     </section>
-    <!-- Footer -->
+  </main>
+  <!-- Footer -->
+   <footer class="footer">
+    <img src="imgs/fb_icons.png" alt="social-media" class="soc-med" height="50" width="50" />
+    <a href="https://facebook.com/christructure" target="_blank"> www.facebook.com/christructure</a>
+    <img src="imgs/ig_icons.png" alt="social-media" class="soc-med" height="50" width="50" />
+    <a href="https://instagram.com/christructure" target="_blank">www.instagram.com/christructure</a>
+    <img src="imgs/logo.png" alt="logo" class="logo2">
+  </footer>
+
+  <script src="script.js"></script>
+
 </body>
 
 </html>
