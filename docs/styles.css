@@ -761,3 +761,60 @@ body {
 }
 
 /* PRINT STYLES */
+@media print {
+  .promo {
+    display: none !important;
+  }
+
+  .posters,
+  .top-section+div {
+    display: none !important;
+  }
+
+  .search {
+    display: none !important;
+  }
+
+  .icon {
+    display: none !important;
+  }
+
+  .menu-icon {
+    display: none !important;
+  }
+
+  .navbar {
+    border-bottom: 2px solid #000;
+    padding: 15px 0;
+  }
+
+  .logo-section {
+    text-align: center;
+    margin: 5px 0;
+  }
+
+  .logo-section h1 {
+    font-size: 20px;
+    letter-spacing: 5px;
+  }
+
+  .collection h2 {
+    display: none !important;
+  }
+
+  .collection-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    page-break-inside: avoid;
+    margin-top: 40px;
+  }
+
+  .item {
+    page-break-inside: avoid;
+  }
+
+  .fits img {
+    width: 185px;
+    height: auto;
+  }
+}
