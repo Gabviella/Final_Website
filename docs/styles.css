@@ -732,4 +732,32 @@ body {
     width: 80%;
   }
 /* Footer */
+.footer {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 0;
+    gap: 15px;
+  }
+
+  .soc-med {
+    width: 40px;
+    height: 40px;
+    margin: 0;
+  }
+
+  .logo2 {
+    width: 45px;
+    height: 45px;
+    margin: 0 0 0 10px;
+  }
+
+  .footer a {
+    font-size: 17px;
+    margin: 0;
+    display: inline;
+    white-space: nowrap;
+  }
+}
+
 /* PRINT STYLES */
