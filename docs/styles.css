@@ -419,12 +419,75 @@ body {
   margin-left: 220px;
 }
 /* MOBILE STYLES (max 480px) */
+@media (max-width: 480px) {
 /* Navbar */
+.navbar {
+    position: relative;
+    background-color: #f5f3f2;
+    padding-left: 8px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+  }
+
+  .menu-icon {
+    display: block;
+    font-size: 28px;
+    cursor: pointer;
+  }
+
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    background-color: white;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    text-align: left;
+    padding: 10px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 10;
+    text-align: center;
+  }
+
+  .nav-links a {
+    text-decoration: none;
+    font-size: 13px;
+    color: black;
+    display: inline-block;
+    position: relative;
+    margin: 0;
+    padding: 0 8px;
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+
+  .icon {
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+  }
+
+  .search input {
+    display: none !important;
+  }
 /* Main Section */
+.logo {
+    height: 25px;
+    width: 25px;
+  }
+  .container {
+    overflow: hidden;
+    max-width: 100%;
+  }
 /* Logo + Promo */
 /* Collection */
 /* Checkout Section */
 /* Footer */
+}
 /* TABLET STYLES (min 768, max 1024px) */
 /* Collection */
 /* Checkout Section */
