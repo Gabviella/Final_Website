@@ -564,7 +564,54 @@ body {
     max-width: 300px;
   }
 /* Checkout Section */
+.checkout-form {
+    gap: 12px;
+    margin-top: 250px;
+  }
+
+  .checkout-header {
+    margin-top: 50px;
+  }
+
+  .form-group input,
+  .form-group textarea,
+  .form-group select {
+    font-size: 14px;
+    padding: 8px;
+  }
+
+  .place-order {
+    width: 100%;
+    padding: 12px;
+    font-size: 15px;
+  }
 /* Footer */
+.footer {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 0;
+    gap: 5px;
+  }
+
+  .soc-med {
+    width: 30px;
+    height: 30px;
+    margin: 0;
+  }
+
+  .logo2 {
+    width: 35px;
+    height: 35px;
+    margin: 0 0 0 10px;
+  }
+
+  .footer a {
+    font-size: 9px;
+    margin: 0;
+    display: inline;
+    white-space: nowrap;
+  }
 }
 /* TABLET STYLES (min 768, max 1024px) */
 /* Collection */
