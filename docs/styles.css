@@ -61,6 +61,123 @@ body {
   width: 31px;
 }
 /* Logo + Promo */
+.top-section {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 40px;
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+.logo-section {
+  flex: 1;
+  text-align: left;
+  margin-left: 250px;
+  text-align: center;
+}
+
+.logo-section h1 {
+  font-size: 60px;
+  font-weight: 800;
+  font-family: 'Post No Bills Colombo', sans-serif;
+  letter-spacing: 10px;
+}
+
+.logo-section span {
+  display: block;
+  font-weight: 700;
+  font-family: 'Post No Bills Colombo', sans-serif;
+  letter-spacing: 10px;
+}
+
+.logo-section .tagline {
+  font-size: 13px;
+  margin-top: 10px;
+  color: #222;
+  text-align: center;
+  font-family: 'Arsenal', sans-serif;
+  letter-spacing: 2px;
+}
+
+.promo {
+  background-color: #f3f1f1;
+  border-radius: 6px;
+  padding: 25px 35px;
+  box-sizing: border-box;
+  position: relative;
+  margin-right: 800px;
+  height: 200px;
+  margin-top: 15px;
+}
+
+.promo-text h3 {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.promo-text a {
+  color: #000000;
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
+  position: relative;
+}
+
+.promo-text a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  width: 70px;
+  height: 2px;
+  background-color: #000;
+}
+
+.Clothes {
+  width: 139px;
+  height: auto;
+  margin-left: 350px;
+  margin-top: -60px;
+  margin-right: -40px;
+}
+
+.dots {
+  position: absolute;
+  bottom: 15px;
+  left: 40%;
+}
+
+.dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin: 0 4px;
+  background-color: #ccc;
+  border-radius: 50%;
+}
+
+.dot.active {
+  background-color: #222;
+}
+
+.posters video {
+  width: 550px;
+  height: auto;
+  border-radius: 6px;
+  display: block;
+  margin-top: 70px;
+  margin-left: 120px;
+}
+
+.top-section+div {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  margin-top: -280px;
+  margin-left: 800px;
+}
 /* Collection */
 /* Checkout Section */
 /* Checkout Items */
