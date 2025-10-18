@@ -614,6 +614,70 @@ body {
   }
 }
 /* TABLET STYLES (min 768, max 1024px) */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .container {
+    overflow: hidden;
+  }
+
+  .navbar {
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
+
+  .nav-links {
+    display: flex;
+    white-space: nowrap;
+  }
+
+  .nav-links a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+  }
+
+  .search {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .search input {
+    width: 200px;
+  }
+
+  .top-section {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .logo-section {
+    margin: 0;
+    text-align: center;
+  }
+
+  .promo {
+    margin: 0;
+    width: 80%;
+    height: auto;
+  }
+
+  .Clothes {
+    max-width: 300px;
+    height: auto;
+    margin-right: 500px;
+  }
+
+  .posters video {
+    margin: 20px 0 0 0;
+    width: 80%;
+    height: auto;
+  }
+
+  .top-section+div {
+    margin: 20px 0 0 0;
+  }
 /* Collection */
 /* Checkout Section */
 /* Footer */
