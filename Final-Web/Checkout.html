@@ -9,6 +9,42 @@
     <!-- Logo & Promo -->
     <!-- Video Section -->
     <!-- Checkout Section -->
+     <section class="checkout">
+      <div class="checkout-header">
+        <h2>Checkout</h2>
+      </div>
+
+      <form class="checkout-form">
+        <div class="form-group">
+          <label for="fullname">Full Name</label>
+          <input type="text" id="fullname" name="fullname" placeholder="Enter your full name" required>
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email Address</label>
+          <input type="email" id="email" name="email" placeholder="Your email address" required>
+        </div>
+
+        <div class="form-group">
+          <label for="phone">Phone Number</label>
+          <input type="tel" id="phone" name="phone" placeholder="Your phone number" required>
+        </div>
+
+        <div class="form-group">
+          <label for="address">Delivery Address</label>
+          <textarea id="address" name="address" rows="3" placeholder="Your delivery address" required></textarea>
+        </div>
+
+        <div class="form-group">
+          <label for="payment">Payment Method</label>
+          <select id="payment" name="payment" required>
+            <option value="">Select payment method</option>
+            <option value="cod">Cash on Delivery</option>
+            <option value="credit">Credit / Debit Card</option>
+            <option value="gcash">GCash</option>
+          </select>
+        </div>
+    </section>
     <!-- Footer -->
 </body>
 
